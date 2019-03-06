@@ -1,0 +1,24 @@
+default: &default
+   adapter: postgresql
+   encoding: unicode
+
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: camplify_development
+   username: rebekah
+   password: password
+
+test:
+   adapter: postgresql
+   encoding: unicode
+   database: camplify_test
+   username: rebekah
+   password: password
+
+production:
+   adapter: postgresql
+   encoding: unicode
+   database: camplify_production
+   username: rebekah
+   password: password
